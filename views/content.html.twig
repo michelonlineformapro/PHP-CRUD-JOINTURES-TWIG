@@ -1,0 +1,18 @@
+{% extends "base.html.twig" %}
+{% block title %}CRUD + TWIG Liste des cds{% endblock %}
+{% block head %}
+    {{ parent() }}
+    <style>
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block body %}
+
+{% block content %}
+    {{ menu }}
+    <p class="important">
+        {{ content }}
+    </p>
+
+{% endblock %}
+{% endblock %}
