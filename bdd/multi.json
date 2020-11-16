@@ -1,0 +1,45 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"multi"},
+{"type":"table","name":"cd","database":"multi","data":
+[
+{"id":"3","nom":"Machine Head","auteur":"DeepPurple","genre_id":"4","proprietaire_id":"2","stock_id":"1"},
+{"id":"4","nom":"France Afrique","auteur":"Tiken Jha  Fakoly","genre_id":"7","proprietaire_id":"3","stock_id":"2"},
+{"id":"5","nom":"Arise","auteur":"Sepultura","genre_id":"7","proprietaire_id":"2","stock_id":"1"},
+{"id":"6","nom":"undifined","auteur":"Burial","genre_id":"9","proprietaire_id":"2","stock_id":"1"},
+{"id":"9","nom":"Blood Sugar Sex Magik","auteur":"RTed Hot chili Peppers","genre_id":"4","proprietaire_id":"2","stock_id":"1"}
+]
+}
+,{"type":"table","name":"genre","database":"multi","data":
+[
+{"id_genre":"1","genre":"REGGAE"},
+{"id_genre":"2","genre":"SALSA"},
+{"id_genre":"3","genre":"SKA"},
+{"id_genre":"4","genre":"ROCK"},
+{"id_genre":"5","genre":"CLASSIQUE"},
+{"id_genre":"6","genre":"POP"},
+{"id_genre":"7","genre":"METAL"},
+{"id_genre":"8","genre":"CALIPSO"},
+{"id_genre":"9","genre":"DUB"},
+{"id_genre":"10","genre":"FOLK"},
+{"id_genre":"11","genre":"RAP"},
+{"id_genre":"12","genre":"HIP HOP"},
+{"id_genre":"13","genre":"JAZZ"},
+{"id_genre":"14","genre":"RAI"}
+]
+}
+,{"type":"table","name":"proprietaires","database":"multi","data":
+[
+{"id_proprio":"1","nom_proprio":"FNAC","email_proprio":"fnac@hotmail.fr","telephone_proprio":"06 25 45 87 98"},
+{"id_proprio":"2","nom_proprio":"AMAZONE","email_proprio":"amazon@hotmail.fr","telephone_proprio":"04 48 58 47 58"},
+{"id_proprio":"3","nom_proprio":"CDISCOUNT","email_proprio":"cdiscount@laposte.net","telephone_proprio":"06 54 78 45 25"},
+{"id_proprio":"4","nom_proprio":"DEZZER","email_proprio":"dezzer@yahoo.com","telephone_proprio":"04 89 58 54 41"}
+]
+}
+,{"type":"table","name":"stock","database":"multi","data":
+[
+{"id_stock":"1","disponible":"OUI","quantite":"250"},
+{"id_stock":"2","disponible":"NON","quantite":"0"}
+]
+}
+]
